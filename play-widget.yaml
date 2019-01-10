@@ -7,4 +7,5 @@
 
   tasks:
     - name: --- SHOW DATE ---
-      debug: var=ansible_date_time.date
+      debug:
+        var: ansible_date_time.date
