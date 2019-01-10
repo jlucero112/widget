@@ -1,0 +1,13 @@
+# user-specific data for all hosts
+all.yaml
+
+# temp files or contents of a temp directory
+*.tmp
+tmp/
+temp/
+
+# Ansible retry (after failure) files
+*.retry
+
+# Mac OS X Desktop Services Store
+.DS_Store
