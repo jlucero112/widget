@@ -6,4 +6,5 @@
   gather_facts: yes
 
   tasks:
-    - debug: var=ansible_date_time.date
+    - debug:
+        var: ansible_date_time.date
