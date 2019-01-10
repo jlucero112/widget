@@ -9,3 +9,6 @@
     - name: --- SHOW DATE AND TIME ---
       debug:
         var: ansible_date_time.iso8601
+    - name: --- SHOW HOSTNAME ---
+      debug:
+        var: ansible_hostname
